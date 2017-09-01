@@ -10,6 +10,13 @@
 
 
 //filter 方法 （ 筛选 ）
-let a =[3,4,21,11]
-let b =a .filter(t => t>10)
+// let a =[3,4,21,11]
+// let b =a .filter(t => t>10)
+// console.log(b)
+
+
+//reverse 逆序输出
+const a=[3,6,4,87]
+const b=a.reverse()
 console.log(b)
+
