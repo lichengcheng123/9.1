@@ -20,3 +20,10 @@ const a=[3,6,4,87]
 const b=a.reverse()
 console.log(b)
 
+//拼接
+let aa={a:1}
+let bb={b:1}
+let cc={...aa,...bb}
+console.log(cc)
+
+//覆盖
